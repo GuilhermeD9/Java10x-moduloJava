@@ -2,6 +2,8 @@ package TipoDeDados;
 
 public class DadosPrimitivos {
     public static void main(String[] args) {
+        //Dados Primitivos: int, double, char, boolean
+
         int idade = 16; // Valor máximo: 2147483647
         double altura = 1.65;
         char inicial = 'N';
