@@ -5,26 +5,10 @@ public class Ninja {
     String aldeia;
     int idade;
 
-    //Criar um método público personalizado
-
     /*
     * Métodos VOID não retornam valor
+    * Métodos String obrigatoriamente retornam uma String
+    * Métodos int obrigatoriamente retorna um int
      */
-    public void SharinganAtivado() {
-        System.out.println("O sharigan Ativou!!");
-    }
 
-    /*
-     * Métodos String obrigatoriamente retornam uma String
-     */
-    public String EuSouUmNinja() {
-        return "Oi, Eu sou um ninja!";
-    }
-
-    /*
-     * Métodos int obrigatoriamente retorna um int
-     */
-    public int AnosParaSeTornarHokage(int idadeMinima) {
-        return idadeMinima - idade;
-    }
 }
