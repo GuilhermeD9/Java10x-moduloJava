@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Desafio02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int NUMERO_MAXIMO = 10;
+        int NUMERO_MAXIMO = 10; // Quantidade que pode ser cadastrada
         int ninjasCadastrados = 0;
         int opcao = 0;
-        String[] ninja = new String[NUMERO_MAXIMO];// Quantidade que pode ser cadastrada
+        String[] ninja = new String[NUMERO_MAXIMO];
 
         while (opcao != 4) {
             System.out.println("\n===== Menu Ninja =====");
