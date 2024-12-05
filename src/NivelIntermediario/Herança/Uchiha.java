@@ -1,4 +1,4 @@
-package NivelIntermediario;
+package NivelIntermediario.Herança;
 
 public class Uchiha extends Ninja{
 

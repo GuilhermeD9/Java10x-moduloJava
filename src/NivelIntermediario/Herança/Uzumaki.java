@@ -1,4 +1,4 @@
-package NivelIntermediario;
+package NivelIntermediario.Herança;
 
 public class Uzumaki extends Ninja {
     public void ModoSabioAtivado() {

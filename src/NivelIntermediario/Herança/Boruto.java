@@ -1,4 +1,4 @@
-package NivelIntermediario;
+package NivelIntermediario.Herança;
 
 public class Boruto extends Uzumaki implements HyugaUzumaki {
     public void AtivarOKarma() {
