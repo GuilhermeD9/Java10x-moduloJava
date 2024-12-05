@@ -28,5 +28,15 @@ public class Main {
         Hinata.nome = "Hinata Hyuga";
         Hinata.aldeia = "Aldeia da folha";
         Hinata.idade = 16;
+        Hinata.ByakuganAtivado();
+
+        Boruto Boruto = new Boruto();
+        Boruto.nome = "Boruto Hyuga Uzumaki";
+        Boruto.aldeia = "Aldeia da folha";
+        Boruto.idade = 9;
+
+        Boruto.ModoSabioAtivado();
+        Boruto.AtivarOKarma();
+        Boruto.AtivarJougan();
     }
 }
