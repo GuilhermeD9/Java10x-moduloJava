@@ -62,4 +62,8 @@ public abstract class Ninja implements EstrategiaDeBatalha {
         System.out.println("Teste na classe Ninja");
     }
 
+    @Override
+    public String toString() {
+        return "Meu nome é " + nome + " eu sou da " + aldeia + " e tenho: " + idade;
+    }
 }
