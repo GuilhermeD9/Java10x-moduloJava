@@ -1,6 +1,9 @@
 package NivelIntermediario.Overload;
 
 public class Uzumaki extends Ninja {
+    Biju biju;
+    String nomeDoNinja;
+
 
     public Uzumaki() {
     }
@@ -13,7 +16,11 @@ public class Uzumaki extends Ninja {
         super(nome, aldeia, idade, numeroDeMissoesConcluidas, rank);
     }
 
-    // Sobreescrever o metodo da classe Ninja
+    public Uzumaki(String nome, String aldeia, int idade, int numeroDeMissoesConcluidas, NivelNinja rank, Biju biju) {
+        super(nome, aldeia, idade, numeroDeMissoesConcluidas, rank);
+        this.biju = biju;
+    }
+
     @Override
     public void habilidadeEspecial() {
         System.out.println("Meu nome é " + nome + " e esse é meu ataque Uzumaki, um ataque de ar");
