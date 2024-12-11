@@ -8,6 +8,9 @@ public class Main {
         System.out.println(naruto.altura);
         naruto.tacarKunai();
 
+        Anbu ninjaAnbu = new Anbu();
+        ninjaAnbu.nome = "Ninja Aleatorio";
+
         System.out.println("--------------- Sasuke Uchiha ---------------");
         Uchiha sasuke = new Uchiha("Sasuke Uchiha", "Aldeia da folha", 18);
         System.out.println(sasuke);
