@@ -1,4 +1,4 @@
-package NivelIntermediario.Generics;
+package NivelIntermediario.Generics.Aula01;
 
 import java.util.ArrayList;
 import java.util.List;
