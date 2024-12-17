@@ -1,6 +1,6 @@
 package NivelIntermediario.Overload;
 
-import NivelIntermediario.HerançaMultipla.SharinganInterface;
+import NivelIntermediario.POO.HerançaMultipla.SharinganInterface;
 
 public class Uchiha extends Ninja implements SharinganInterface {
 
