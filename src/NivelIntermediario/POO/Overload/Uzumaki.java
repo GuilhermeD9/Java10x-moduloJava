@@ -1,4 +1,4 @@
-package NivelIntermediario.Overload;
+package NivelIntermediario.POO.Overload;
 
 public class Uzumaki extends Ninja {
     Biju biju;

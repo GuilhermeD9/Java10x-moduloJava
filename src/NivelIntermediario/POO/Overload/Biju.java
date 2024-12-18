@@ -1,4 +1,4 @@
-package NivelIntermediario.Overload;
+package NivelIntermediario.POO.Overload;
 
 public enum Biju {
     SHUKAKU(1, "Shukaku", "Gaara"),
